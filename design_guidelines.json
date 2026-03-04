@@ -1,0 +1,179 @@
+{
+  "project_name": "Azure Data Transformer",
+  "design_philosophy": {
+    "archetype": "Swiss High-Contrast & Performance Pro",
+    "core_principles": [
+      "Density with Clarity: Maximizing information per pixel without clutter.",
+      "Function over Form: Every element serves a data engineering purpose.",
+      "Trustworthy Precision: Aesthetics that imply accuracy and reliability.",
+      "Response & Feedback: Immediate visual confirmation for all data actions."
+    ],
+    "vibe": "Surgical, Authoritative, Enterprise-Grade, Clean."
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Chivo, sans-serif",
+      "body": "Inter, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-4xl font-bold tracking-tight",
+      "h2": "text-3xl font-semibold tracking-tight",
+      "h3": "text-2xl font-semibold tracking-tight",
+      "body_lg": "text-lg leading-relaxed",
+      "body": "text-base leading-normal",
+      "body_sm": "text-sm leading-normal",
+      "caption": "text-xs text-muted-foreground",
+      "mono_sm": "font-mono text-xs",
+      "mono_base": "font-mono text-sm"
+    },
+    "weights": {
+      "regular": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#0F172A",
+        "foreground": "#F8FAFC"
+      },
+      "secondary": {
+        "DEFAULT": "#F1F5F9",
+        "foreground": "#0F172A"
+      },
+      "accent": {
+        "DEFAULT": "#0284C7",
+        "foreground": "#FFFFFF"
+      },
+      "destructive": {
+        "DEFAULT": "#EF4444",
+        "foreground": "#FFFFFF"
+      },
+      "muted": {
+        "DEFAULT": "#F8FAFC",
+        "foreground": "#64748B"
+      },
+      "background": "#FFFFFF",
+      "foreground": "#0F172A",
+      "border": "#E2E8F0",
+      "input": "#E2E8F0",
+      "ring": "#0284C7"
+    },
+    "status": {
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444",
+      "info": "#3B82F6"
+    },
+    "gradients": {
+      "hero_overlay": "linear-gradient(to bottom, rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.8))",
+      "active_border": "linear-gradient(90deg, transparent, #0284C7, transparent)"
+    }
+  },
+  "layout": {
+    "spacing_scale": "pro-density",
+    "grid_system": "Bento Grid (Mode B - High Density)",
+    "container": {
+      "max_width": "max-w-7xl",
+      "padding": "px-6 md:px-8"
+    },
+    "radius": {
+      "default": "rounded-sm",
+      "button": "rounded-md",
+      "card": "rounded-md"
+    },
+    "elevation": {
+      "card": "border border-border shadow-sm",
+      "dropdown": "border border-border shadow-lg",
+      "modal": "border border-border shadow-xl backdrop-blur-sm bg-background/95"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm font-medium transition-all active:scale-95",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-transparent font-medium transition-all active:scale-95",
+      "outline": "border border-input bg-background hover:bg-accent hover:text-accent-foreground font-medium transition-all active:scale-95",
+      "ghost": "hover:bg-accent hover:text-accent-foreground font-medium transition-all active:scale-95",
+      "destructive": "bg-destructive text-destructive-foreground hover:bg-destructive/90 shadow-sm font-medium transition-all active:scale-95"
+    },
+    "cards": {
+      "dashboard_metric": "bg-card text-card-foreground border border-border p-6 rounded-md shadow-sm relative overflow-hidden group hover:border-accent/50 transition-colors",
+      "data_table": "rounded-md border border-border overflow-hidden bg-white"
+    },
+    "inputs": {
+      "default": "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    },
+    "tables": {
+      "header": "bg-muted/50 text-muted-foreground font-medium text-xs uppercase tracking-wider",
+      "row": "hover:bg-muted/50 transition-colors data-[state=selected]:bg-muted",
+      "cell": "p-4 align-middle [&:has([role=checkbox])]:pr-0"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": {
+      "sidebar": "bg-background/95 backdrop-blur-md border-r border-border",
+      "header": "bg-background/80 backdrop-blur-md border-b border-border sticky top-0 z-50"
+    },
+    "micro_interactions": {
+      "hover_lift": "hover:-translate-y-0.5 transition-transform duration-200",
+      "active_press": "active:scale-[0.98] transition-transform duration-100"
+    },
+    "loading_states": {
+      "skeleton": "animate-pulse bg-muted rounded-md"
+    }
+  },
+  "assets": {
+    "icons": {
+      "library": "lucide-react",
+      "style": "stroke-width-1.5",
+      "mapping": {
+        "dashboard": "LayoutDashboard",
+        "files": "FileText",
+        "upload": "UploadCloud",
+        "settings": "Settings",
+        "users": "Users",
+        "approval": "CheckCircle2",
+        "mapping_editor": "GitMerge",
+        "json": "FileJson",
+        "pdf": "FileType2",
+        "api": "Server",
+        "analytics": "BarChart3"
+      }
+    },
+    "images": {
+      "login_bg": {
+        "url": "https://images.unsplash.com/photo-1767474604678-e32410f62d1f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCU2MGRpZ2l0YWwlMjBkYXRhJTIwZmxvdyUyMGJsdWUlMjB3aGl0ZSUyMG1pbmltYWx8ZW58MHx8fHwxNzcyNTg1MTc3fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Abstract Blue Data Flow",
+        "usage": "Login page background, subtle overlay opacity"
+      },
+      "hero_abstract": {
+        "url": "https://images.unsplash.com/photo-1767477665602-ab4e96be7701?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCU2MGRpZ2l0YWwlMjBkYXRhJTIwZmxvdyUyMGJsdWUlMjB3aGl0ZSUyMG1pbmltYWx8ZW58MHx8fHwxNzcyNTg1MTc3fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Deep Blue Digital Pattern",
+        "usage": "Dashboard hero section or promotional banner"
+      }
+    }
+  },
+  "instructions_to_main_agent": {
+    "layout_strategy": "Use a sidebar layout for the main app. The sidebar should be collapsible. The main content area should have a max-width constraint for readability on huge screens but expand for tables.",
+    "page_specifics": {
+      "dashboard": "Implement a Bento Grid layout. Top row: Key Metrics (Files Processed, Pending Approvals, Storage Used). Middle row: Activity Chart (Bar chart using Shadcn/Recharts) spanning 2/3, Recent Activity List spanning 1/3. Bottom row: Quick Actions.",
+      "file_upload": "Create a large, dashed-border dropzone area. Use 'react-dropzone'. Visual feedback on drag over. List uploaded files immediately below with progress bars.",
+      "mapping_editor": "Split screen. Left: Source Fields (JSON/PDF keys). Right: Destination Schema (SQL columns). Center: Connection lines or mapping dropdowns. Use 'react-flow' if complex, or simple row-matching inputs for MVP.",
+      "approvals": "Data table with status badges. Row click opens a detailed 'Diff' view or summary modal."
+    },
+    "data_visualization": "Use 'recharts' via Shadcn Charts. customize tooltips to be clean and minimal.",
+    "notifications": "Use 'sonner' for toast notifications. Position: bottom-right."
+  },
+  "universal_guidelines": [
+    "Use 'sonner' for toasts.",
+    "All interactive elements MUST include 'data-testid'.",
+    "Do NOT use gradients for text or backgrounds unless specified in 'visual_enhancers'.",
+    "Use 'lucide-react' for all icons.",
+    "Ensure high contrast for text (WCAG AA minimum).",
+    "Use 'JetBrains Mono' for all code, IDs, and data values.",
+    "Forms must use 'react-hook-form' and 'zod' for validation."
+  ]
+}
